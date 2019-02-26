@@ -1,0 +1,4 @@
+MAILTO=Igor.Kreslo@cern.ch
+10 */4 * * * /data/CRT/restartrun
+12 1 * * * /data/CRT/OnlineBeam/restartonline
+

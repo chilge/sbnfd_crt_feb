@@ -1,0 +1,24 @@
+./febctl tcp://sbnd-prod-crt01.fnal.gov:5555 DAQ_END
+./febctl tcp://sbnd-prod-crt01.fnal.gov:5555 BIAS_OF
+
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN083.txt CONF/CITIROC_PROBEbitstream.txt 83
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN084.txt CONF/CITIROC_PROBEbitstream.txt 84
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN085.txt CONF/CITIROC_PROBEbitstream.txt 85
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN086.txt CONF/CITIROC_PROBEbitstream.txt 86
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN087.txt CONF/CITIROC_PROBEbitstream.txt 87
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN088.txt CONF/CITIROC_PROBEbitstream.txt 88
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN089.txt CONF/CITIROC_PROBEbitstream.txt 89
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN090.txt CONF/CITIROC_PROBEbitstream.txt 90
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN091.txt CONF/CITIROC_PROBEbitstream.txt 91
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN096.txt CONF/CITIROC_PROBEbitstream.txt 96
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN097.txt CONF/CITIROC_PROBEbitstream.txt 97
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN098.txt CONF/CITIROC_PROBEbitstream.txt 98
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN099.txt CONF/CITIROC_PROBEbitstream.txt 99
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN100.txt CONF/CITIROC_PROBEbitstream.txt 100
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN101.txt CONF/CITIROC_PROBEbitstream.txt 101
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN102.txt CONF/CITIROC_PROBEbitstream.txt 102
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN103.txt CONF/CITIROC_PROBEbitstream.txt 103
+./febconf tcp://sbnd-prod-crt01.fnal.gov:5555 CONF/CITIROC_SC_SN104.txt CONF/CITIROC_PROBEbitstream.txt 104
+
+
+./febctl tcp://sbnd-prod-crt01.fnal.gov:5555 BIAS_ON

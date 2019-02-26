@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /data/CRT
+./stop_run
+sleep 1
+./start_run
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -ne 0 ]; then
+    echo $0: usage: logmessage 
+    exit 1
+fi
+
+echo -n 'Enter the message [ENTER]:'
+read -e text
+
+
+ts=$(date +%s%N)
+
+curl -i -XPOST 'http://localhost:8086/write?db=crt' --data-binary 'messages text="'${text// /_}'",title="Run" '$ts''
+##echo 'messages text="'$text'",title="Run" '$ts''

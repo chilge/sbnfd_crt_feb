@@ -1,0 +1,24 @@
+#!/bin/bash
+
+##if [ $# -ne 1 ]; then
+##    echo $0: usage: start_run filename
+##    exit 1
+##fi
+
+##name=$1
+
+name='/data/CRT/CRT_data/ProdRun'$(date +%Y%m%d_%H%M%S)
+
+echo "Stopping DAQ at all FEBs"
+./daq_stop_global
+sleep 3
+echo "Starting storage clients (start_febstore $name)"
+./start_febstore $name
+sleep 3
+echo "Starting DAQ on all FEBs"
+./daq_start_global
+./logevent Start_$name
+ls -ltrh |grep $name
+sleep 3
+killall febctl
+
